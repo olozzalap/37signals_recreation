@@ -51,14 +51,17 @@ body {
 	font-family:'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	font-size:12px;
 }
-a:link {
+a {
+	text-decoration:none;
+}
+#top_nav ul  li a:link {
 	text-decoration:none;
 	color:#369;
 }
-a:visited {
+#top_nav ul  li a:visited {
 	color:#369;
 }
-a:hover {
+#top_nav ul  li a:hover {
 	color:#6699cc;
 }
 a#sign_in_link:link {
@@ -102,9 +105,19 @@ div#top_nav ul li {
 	position:relative;
 	left:50%;
 	margin-left:-405px;
+	z-index:3;
+}
+.basecamp_headline {
+	display:none;
+}
+.highrise_headline {
+	display:none;
+}
+.campfire_headline {
+	display:none;
 }
 h1 {
-	font-family: 'Crimson Text', courier, Times New Roman, Georgia, serif;
+	font-family: 'CrimsonSemibold', courier, Times New Roman, Georgia, serif;
 	font-size:60px;
 	line-height:1.0em;
 	color:#232323;
@@ -115,11 +128,27 @@ h1 {
 	margin: 0px 0px 25px 0px;
 }
 h5 {
-	font-family: 'Crimson Text', courier, Times New Roman, Georgia, serif;
+	font-family: 'CrimsonSemibold', courier, Times New Roman, Georgia, serif;
 	color:#222222;
 	font-size:20px;
 	line-height:27px;
 	font-weight:500;
+}
+#headline h1 span {
+	color:#336699;
+	text-decoration:underline;
+}
+.app_headline {
+	color:#222;
+	font-size:46px;
+	letter-spacing:-1px;
+	margin: 0 0 15px 0;
+}
+.alt-detail {
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	color:#222;
+	line-height:1.4em;
+	margin: 5px 0 0 0;
 }
 #apps_position {
 	width:669px;
@@ -139,6 +168,21 @@ h5 {
 	border: 1px solid #e8e8e8;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	text-align:center;
+}
+#arrow_to_basecamp {
+	position:relative;
+  left:-145px;
+  top:8px;
+}
+#arrow_to_highrise {
+	position:relative;
+	left:80px;
+  top:8px;
+}
+#arrow_to_campfire {
+	position:relative;
+	left:155px;
+  top:8px;
 }
 .app_name {
   font-size:21px;
