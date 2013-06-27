@@ -117,7 +117,7 @@ div#top_nav ul li {
 	display:none;
 }
 h1 {
-	font-family: 'CrimsonSemibold', courier, Times New Roman, Georgia, serif;
+	font-family: 'Crimson Text', courier, Times New Roman, Georgia, serif;
 	font-size:60px;
 	line-height:1.0em;
 	color:#232323;
@@ -128,11 +128,12 @@ h1 {
 	margin: 0px 0px 25px 0px;
 }
 h5 {
-	font-family: 'CrimsonSemibold', courier, Times New Roman, Georgia, serif;
+	font-family: 'Crimson Text', courier, Times New Roman, Georgia, serif;
 	color:#222222;
 	font-size:20px;
 	line-height:27px;
 	font-weight:500;
+	padding-bottom:25px;
 }
 #headline h1 span {
 	color:#336699;
@@ -172,17 +173,17 @@ h5 {
 #arrow_to_basecamp {
 	position:relative;
   left:-145px;
-  top:8px;
+  top:-17px;
 }
 #arrow_to_highrise {
 	position:relative;
 	left:80px;
-  top:8px;
+  top:-17px;
 }
 #arrow_to_campfire {
 	position:relative;
 	left:155px;
-  top:8px;
+  top:-17px;
 }
 .app_name {
   font-size:21px;
